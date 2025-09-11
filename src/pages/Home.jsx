@@ -15,7 +15,8 @@ export default function Home() {
   return (
     <>
       <div>
-        <h1>Velkommen til min React-app 🚀</h1>
+        <h1>Komponentbibliotek 🚀</h1>
+        <p> Prøv det selv!</p>
       </div>
 
       <div
@@ -25,7 +26,6 @@ export default function Home() {
           flexDirection: "column",
         }}
       >
-        <h2>Komponenter</h2>
         <Playground code={`<Card title="Dette er en Card-komponent" />`} />
         <Separator />
 
