@@ -1,0 +1,17 @@
+.button {
+  min-width: 8rem;
+  height: 2rem;
+  height: 2.5rem;
+  padding: 10px 20px;
+  background-color: var(--midnight);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #9aa8ff;
+}
